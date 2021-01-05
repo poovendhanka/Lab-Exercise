@@ -14,7 +14,15 @@ public class Exercise2 {
 				
 		System.out.println("1.Red\n2.Yellow\n3.Green");
        System.out.println("select one of three lights ");
+      
+       
        int ch=sc.nextInt();
+      int n = display(ch);
+
+}
+	private static int display(int ch) {
+		// TODO Write your code here
+		
 		switch(ch)
 		{ 
 			case 1:
@@ -33,6 +41,7 @@ public class Exercise2 {
        
        
 	}
-
-}
+		return ch;
+	}
+	
 }
